@@ -4,7 +4,7 @@ class Comment extends Component {
   render () {
     return (
       <div class="comment">
-        <li>{this.props.body}</li>
+        <p>{this.props.body}</p>
       </div>
     )
   }
