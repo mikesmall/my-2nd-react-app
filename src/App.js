@@ -13,10 +13,13 @@ class Post extends Component {
   constructor (props) {
     super()
     this.state = {
+      // body will = whatever body prop was passed to the component:
       body: props.body
     }
   }
-  // Reminder: 'body' is a Post attribute. This isn't talking about HTML page <body>.
+  // - Reminder: 'body' is a Post attribute. This isn't talking about HTML page <body>.
+  // - The changeBody() method is called when the 'Edit Body' button is clicked by the user.
+  // - Never use 'prompt' in production. Users hate popups.
   changeBody(e) {
     let newBody = prompt("What should the new body be?")
     this.setState({
