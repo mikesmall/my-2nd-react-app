@@ -22,6 +22,14 @@ h2 {
   background-color: skyblue;
 }
 
+h3 {
+  background-color: lightgrey;
+}
+
+.comments {
+  background-color: lightgrey;
+}
+
 p, ol {
   font-family: Roboto;
   line-height: 1.5;
