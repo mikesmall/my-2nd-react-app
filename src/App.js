@@ -26,8 +26,8 @@ class Post extends Component {
         <h1>{this.props.title}</h1>
         <h2>{authors}</h2>
         <p>{this.props.body}</p>
-        <h3>Comments:</h3>
         <div class="comments">
+          <h3>Comments:</h3>
           <p>{allComments}</p>
         </div>
       </div>
