@@ -49,7 +49,7 @@ class Post extends Component {
         <h2>{authors}</h2>
         <p>{this.state.body}</p>
         <button onClick={(e) => this.changeBody(e)}>Edit Body</button>
-        <input type="text" onChange={(e) => this.handleFormInput(e)} />
+        <p>input: <input type="text" onChange={(e) => this.handleFormInput(e)} /></p>
         <div class="comments">
           <h3>Anonymous Comments (Do Not Read)</h3>
           <ol>{allComments}</ol>

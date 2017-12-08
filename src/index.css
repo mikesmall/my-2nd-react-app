@@ -45,3 +45,11 @@ p, ol {
 ol {
   background-color: lightgrey;
 }
+
+button {
+  background-color: pink;
+  font-family: Lato;
+  font-size: 1em;
+  box-shadow: 1px 1px gray;
+  margin: 0px 5px 5px 0px;
+}
