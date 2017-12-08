@@ -16,7 +16,7 @@ class Post extends Component {
       body: props.body
     }
   }
-  // Just a reminder: 'body' is a Post attribute. This isn't talking about the body of an HTML page.
+  // Reminder: 'body' is a Post attribute. This isn't talking about HTML page <body>.
   changeBody(e) {
     let newBody = prompt("What should the new body be?")
     this.setState({
