@@ -16,6 +16,7 @@ class Post extends Component {
       body: props.body
     }
   }
+
   changeBody(e) {
     let newBody = prompt("What should the new body be?")
     this.setState({
@@ -39,8 +40,8 @@ class Post extends Component {
       <Comment body={this.props.comments[4]} />
     ]
     let authors = [
-      <Author author={this.props.allAuthors[0]} />,
-      <Author author={this.props.allAuthors[1]} />,
+      // <Author author={this.props.allAuthors[0]} />,
+      // <Author author={this.props.allAuthors[1]} />,
       <Author author={this.props.allAuthors[2]} />
     ]
     return (
