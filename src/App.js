@@ -5,7 +5,8 @@ import './App.css';
 import Comment from './Comment.js';
 import Author from './Author.js';
 
-// Note: Normally, it would be good practice to rename the App.js file Post.js or to create a new component file for the Post component entirely. Then it would be obvious which component each file contains. However, don't do this! This is a comment for you to know best practices for the future - in this tutorial, leave the file named App.js. We're just concentrating on making it work for now!
+// Lesson Note:
+// Normally, it would be good practice to rename the App.js file Post.js or to create a new component file for the Post component entirely. Then it would be obvious which component each file contains. However, don't do this! This is a comment for you to know best practices for the future - in this tutorial, leave the file named App.js. We're just concentrating on making it work for now!
 
 class Post extends Component {
 
@@ -43,7 +44,7 @@ class Post extends Component {
         <button onClick={(e) => this.changeBody(e)}>Edit Body</button>
         <div class="comments">
           <h3>Comments:</h3>
-          <p>{allComments}</p>
+          <ol>{allComments}</ol>
         </div>
       </div>
 
