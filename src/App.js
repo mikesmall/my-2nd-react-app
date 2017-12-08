@@ -23,6 +23,13 @@ class Post extends Component {
     })
   }
 
+  handleFormInput (e) {
+    console.log(e);
+    this.setState({
+      body: e.target.value
+    })
+  }
+
   render() {
     let allComments = [
       <Comment body={this.props.comments[0]} />,
@@ -42,6 +49,7 @@ class Post extends Component {
         <h2>{authors}</h2>
         <p>{this.state.body}</p>
         <button onClick={(e) => this.changeBody(e)}>Edit Body</button>
+        <input type="text" onChange={(e) => this.handleFormInput(e)} />
         <div class="comments">
           <h3>Comments:</h3>
           <ol>{allComments}</ol>
