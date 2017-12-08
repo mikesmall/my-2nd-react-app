@@ -13,8 +13,14 @@ class Post extends Component {
         <h1>{this.props.title}</h1>
         <h2>By: {this.props.author}</h2>
         <p>{this.props.body}</p>
-        <h3>Comments:</h3>
-        <Comment body={this.props.comments[0]} />
+        <ol>
+          <h3>Comments:</h3>
+          <Comment body={this.props.comments[0]} />
+          <Comment body={this.props.comments[1]} />
+          <Comment body={this.props.comments[2]} />
+          <Comment body={this.props.comments[3]} />
+          <Comment body={this.props.comments[4]} />
+        </ol>
       </div>
 
     );
