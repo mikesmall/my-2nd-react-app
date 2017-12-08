@@ -23,3 +23,5 @@ ReactDOM.render(
     comments={post.postComments}
   />,
 document.getElementById('root'));
+
+// * postBody populated by the 'lorem-insults' Atom package.
