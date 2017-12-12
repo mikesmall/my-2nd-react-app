@@ -4,7 +4,7 @@ import './index.css';
 import Post from './App.js';
 
 var post = {
-  title: "Dinosaurs Are Awesome!!!",
+  title: "Dinosaurs Are Awesome!",
   authors: [
     "Stealthy Stegasaurus",
     "Tiny T-Rex",
